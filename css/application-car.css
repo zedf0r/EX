@@ -1,0 +1,121 @@
+.car-industry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+    
+}
+
+
+.logo {
+    color: #222222;
+}
+
+.nav-item_black {
+    color: #222222;
+}
+
+.navigation {
+    font-family: "PTSans", sans-serif;
+    font-size: 14px;
+    color: #888888;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+
+.navigation-item {
+    list-style-type: disc;
+    color: #E12126;
+}
+
+.navigation-item:nth-child(1) {
+    list-style-type: none;
+}
+
+.navigation-link {
+    color: #888888;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.navigation-link:hover {
+    color: #222222;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.offer-button {
+    font-family: "PTSans", sans-serif;
+    font-size: 18px;
+    width: 258px;
+    height: 60px;
+    background-color: #E12126;
+    color: #ffffff;
+    margin-top: 78px;
+    transition: opacity .4s;
+    cursor: pointer;
+}
+
+.offer-button:hover {
+    opacity: 0.8
+}
+
+.categorys-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222222;
+    margin-top: 138px;
+}
+
+.categorys-box {
+    display: flex;
+    gap: 10px;
+    font-family: "PTSans", sans-serif;
+    font-size: 14px;
+    color: #222222;
+    margin: 20px 0 60px;
+}
+
+.category {
+    display: block;
+    border: 1px solid #ccc;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding-top: 11px;
+    cursor: pointer;
+    transition: background-color .4s,
+    color .4s;
+}
+
+.category:hover {
+    background-color: #888888;
+    color: #ffffff;
+}
+
+.image-box {
+    background-image: url("../img/application-car.png");
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 920px;
+    height: 975px;
+}
+
+.footer-logo {
+    color: #ffffff;
+}
+
+.svg-telephone {
+    color: #E12126;
+}

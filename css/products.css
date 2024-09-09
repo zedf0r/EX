@@ -1,0 +1,48 @@
+.header {
+    color: #222222;
+}
+
+.svg-telephone {
+    color: #e12126
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+.product-first {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px;
+    background-color: #164C2B;
+    width: 370px;
+    height: 427px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.products {
+    margin: 0 0 154px;
+}
+
+.product {
+    border: none;
+    font-size: 18px;
+    width: 371px;
+    height: 427px;
+    color: #fff;
+    background-image: url("../img/product-kim_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-text {
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+

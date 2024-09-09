@@ -1,0 +1,179 @@
+.header {
+    color: #222222;
+}
+
+.svg-telephone {
+    color: #E12126;
+}
+
+.contatcs {
+    width: 100%;
+}
+
+.contacts-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1530px;
+    margin: 0 auto;
+    padding-left: 18px;
+    flex-direction: column;
+}
+
+.navigation {
+    margin: 30px 0 60px;
+    height: 0;
+}
+
+.navigation-list {
+    font-family: "PTSans", sans-serif;
+    font-size: 14px;
+    color: #888888;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.navigation-list-item {
+    list-style-type: disc;
+    color: #E12126;
+}
+
+.navigation-list-item:nth-child(1) {
+    list-style-type: none;
+}
+
+.navigation-link {
+    color: #888888;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.navigation-link:hover {
+    color: #222222;
+}
+
+.contacts-inner {
+    display: flex;
+    width: 1530px;
+    gap: 200px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 48px;
+    color: #222222;
+    margin-bottom: 60px;
+}
+
+.contact-information {
+    color: #444444;
+}
+
+.contact-information_hover-black:hover {
+    color: #202020;
+}
+
+
+.contact-requisite {
+    margin-top: 50px;
+}
+
+.contact-requisite-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.contact-requisite-text {
+    font-family: "PTSans", sans-serif;
+    font-size: 18px;
+    line-height: 156%;
+    color: #444;
+}
+
+.contact-button {
+    font-family: "PTSans", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 357px;
+    height: 60px;
+    background-color: #E12126;
+    margin: 40px 0 67px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.contact-button:hover {
+    opacity: 0.8;
+}
+
+.contact-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.contact-feedback-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222222;
+}
+
+.feedback-field {
+    font-family: "PTSans", sans-serif;
+    font-size: 18px;
+    width: 750px;
+    height: 60px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: border .4s;
+}
+
+.feedback-field:focus {
+    border: 1px solid #E12126;
+}
+
+.feedback-field-area {
+    resize: none;
+    height: 120px;
+}
+
+.feedback-button {
+    font-family: "PTSans", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #E12126;
+    text-align: center;
+    width: 230px;
+    height: 60px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.feedback-button:hover {
+    opacity: 0.8;
+}
+
+.contact-map {
+    position:relative;
+    overflow:hidden;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+.footer {
+    margin-top: -4px;
+}
