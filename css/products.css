@@ -34,10 +34,15 @@
     font-size: 18px;
     width: 371px;
     height: 427px;
-    color: #fff;
-    background-image: url("../img/product-kim_bg.png");
+    color: #000000;
+    background-image: url("../img/product-korobka-PTB1006.png");
     background-size: cover;
     background-repeat: no-repeat;
+    transition: color .5s;
+}
+
+.product:hover {
+    color: #fff;
 }
 
 .product-text {
